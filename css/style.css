@@ -32,9 +32,7 @@ body{
   background-position: center;
   font-family: "Andika", sans-serif;
   background-color: #dddddd;
-  background-image:url(../images/pigeon-background.JPEG); 
-/*   https://github.com/myseanwu/homework4-2021/blob/main/images/pigeon-background.JPEG */
-/*   https://github.com/myseanwu/homework4-2021/blob/main/index.html */
+  background-image:url('../images/pigeon-background.JPEG');
   background-repeat: no-repeat;
   background-attachment: fixed;
 
@@ -98,18 +96,25 @@ td{
 }
 
 /*Req 6d* #11ffee00;*/
-tbody tr:nth-child(odd) th, tr:nth-child(odd) td{
-  background-color: transparent;
+/* tbody tr:nth-child(odd) th, tr:nth-child(odd) td{ */
+  /* background-color: transparent; */
   /* background-color: #11ffee00; */
-}
+/* } */
 /*Req 6e*/
 tbody tr:nth-child(even) th,tr:nth-child(even) td{
   background-color: #D1D1D1;
 }
-
+tr:nth-child(odd){
+  background-color: #11ffee00;
+}
 
 /*Req 6f*/
 tbody tr:hover th,tbody tr:hover td{
+  background-color: rgba(126, 8, 32,0.25);
+
+}
+
+tr:hover{
   background-color: rgba(126, 8, 32,0.25);
 }
 

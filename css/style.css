@@ -32,7 +32,8 @@ body{
   background-position: center;
   font-family: "Andika", sans-serif;
   background-color: #dddddd;
-  background-image:url('images/pigeon-background.jpeg');
+  background-image:url('/main/images/pigeon-background.JPEG'); 
+/*   https://github.com/myseanwu/homework4-2021/blob/main/images/pigeon-background.JPEG */
   background-repeat: no-repeat;
   background-attachment: fixed;
 

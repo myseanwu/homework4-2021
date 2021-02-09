@@ -1,0 +1,162 @@
+/*STARTER CODE*/
+
+/*
+We have started some of the selectors for you.
+For others we have provided hints on what the selectors should be.
+There are some missing selectors.
+
+Make sure to learn what the starter code does!!
+*/
+
+/*STARTER CODE - DO NOT CHANGE*/
+main{
+  margin-bottom: 100px;
+}
+
+caption{
+  margin:5px 0px;
+}
+
+tr{
+  -webkit-transition: background-color 0.5s ease;
+  transition: background-color 0.5s ease;
+}
+
+/*END STARTER CODE*/
+
+body{
+  color: #000000;
+  font-size: 16px;
+  margin: 1.2em;
+  background-size: cover ;
+  background-position: center;
+  font-family: "Andika", sans-serif;
+  background-color: #dddddd;
+  background-image:url('../images/pigeon-background.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  /*Req 1*/
+}
+
+h1{
+  color: #c12258;
+  font-size: 2em;
+  line-height: 2 ;
+  text-align: center;
+
+  /*Req 2*/
+}
+
+p{
+  /* padding-top: 15px; */
+  padding: 15px 0 0 0;
+  /*Req 3*/
+}
+
+a:link{
+  /*Req 4*/
+  font-size: 16px;
+  color: #B21F50;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+/*Req 5*/
+/*Add selector and rule here*/
+*:focus{
+  border: 3px;
+  border-style: dashed;
+  background-color: #417243;
+}
+
+/*Req 6a*/
+td{
+  text-align: center;
+  border-top: 2px solid #000000;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+/*Req 6b*/
+.colhead{
+  color: #FFFFFF;
+  min-width: 125px;
+  padding: 10px;
+  text-align:center;
+  vertical-align: middle;
+  background-color: #7e0820;
+  text-transform: uppercase;
+
+}
+/*Req 6c*/
+.rowhead{
+  border: 2px solid #000000;
+  vertical-align: middle;
+}
+
+/*Req 6d* #11ffee00;*/
+tr:nth-child(odd) {
+  background-color: #11ffee00;
+}
+/*Req 6e*/
+tr:nth-child(even){
+  background-color: #D1D1D1;
+}
+/*Req 6f*/
+tbody >tr:hover{
+  background-color: rgba(126, 8, 32,0.25);
+}
+
+/*Req 7*/
+table{
+    border: 2px solid #000000;
+    /* border-collapse: collapse; */
+    margin-left: auto;
+    margin-right: auto;
+    /* border-collapse:separate; */
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+
+}
+
+/* td:first-child, th:first-child {
+   border-left: none;
+} */
+
+/* thead tr:first-child th:first-child{
+  border-left: none;
+  border-bottom: none;
+} */
+
+/*Add selectors and rules here*/
+.rowhead {
+  border-bottom: none;
+  border-left: none;
+}
+thead th:first-child{
+  border-radius:10px 0 0 0;
+
+}
+thead th:last-child{
+  border-radius:0 10px 0 0;
+
+}
+
+/*Req 8*/
+footer{
+  width:100%;
+  background:#000000;
+  text-align:center;
+  color: #FFFFFF;
+
+  min-height: 75px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+

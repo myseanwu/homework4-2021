@@ -101,11 +101,14 @@ td{
   /* background-color: #11ffee00; */
 /* } */
 /*Req 6e*/
-tbody tr:nth-child(even) th,tr:nth-child(even) td{
+/* tbody tr:nth-child(even) th,tr:nth-child(even) td{
   background-color: #D1D1D1;
-}
+} */
 tr:nth-child(odd){
-  background-color: #11ffee00;
+  background-color: transparent;
+}
+tr:nth-child(even){
+  background-color: #D1D1D1;
 }
 
 /*Req 6f*/
